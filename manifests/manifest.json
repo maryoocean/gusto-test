@@ -1,0 +1,50 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://maryoocean.github.io/gusto-test/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : " atto II, scena XII (page 454)",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : " atto II, scena XII",
+    "@language" : "it"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Carlo Goldoni",
+  "sequences" : [ {
+    "@id" : "http://effa7b1c-379f-4db3-a9a9-c96ff215dc50",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://d58de5b6-7087-453b-8d34-adf7f28899d8",
+      "@type" : "sc:Canvas",
+      "label" : "atto II, scena XI",
+      "height" : 1727,
+      "width" : 973,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d8e31e32-7d52-4927-93d3-916dbe9a1905",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://maryoocean.github.io/gusto-test/images/page454/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://maryoocean.github.io/gusto-test/images/page454",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1727,
+          "width" : 973
+        },
+        "on" : "http://d58de5b6-7087-453b-8d34-adf7f28899d8"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://d58de5b6-7087-453b-8d34-adf7f28899d8"
+  },
+  "viewingDirection" : "left-to-right"
+}
