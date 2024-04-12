@@ -39,6 +39,12 @@
         },
         "on" : "http://d58de5b6-7087-453b-8d34-adf7f28899d8"
       } ],
+      "otherContent": [
+        {
+            "@id": "https://maryoocean.github.io/gusto-test/annotations/32c2348dd84e14ec2193f288cefef281.json",
+            "@type": "sc:AnnotationList",
+            "label": "My fantastic annotations"
+        }
       "related" : ""
     } ]
   } ],
