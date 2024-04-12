@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://maryoocean.github.io/gusto-test/annotations/32c2348dd84e14ec2193f288cefef281.json" ],
+  "@id" : "https://maryoocean.github.io/gusto-test/annotations/collection.json",
+  "label" : "All annotations loaded in maryoocean/gusto-test project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
