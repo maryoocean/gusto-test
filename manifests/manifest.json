@@ -49,7 +49,7 @@
                         {
                             "@id": "https://maryoocean.github.io/gusto-test/annotations/32c2348dd84e14ec2193f288cefef281.json",
                             "@type": "sc:AnnotationList",
-                            "label": "My fantastic annotations"
+                            "label": "My annotations"
                         }
                     ],
                     "related": ""
