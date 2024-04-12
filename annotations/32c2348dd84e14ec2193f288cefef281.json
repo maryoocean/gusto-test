@@ -1,0 +1,43 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "meal",
+      "@type" : "oa:Tag",
+      "chars" : "meal"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "<a href=\"https://it.wikipedia.org/wiki/Pranzo\" target=\"_blank\" rel=\"noopener\">Pranzo",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p><a href=\"https://it.wikipedia.org/wiki/Pranzo\" target=\"_blank\" rel=\"noopener\">Pranzo</a></p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/31654726",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-04-12T11:43:45",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1712922225019",
+    "dcterms:modified" : "2024-04-12T11:43:45",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://maryoocean.github.io/gusto-test/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=667,415,133,41"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M667.22727,414.96h66.45455v0h66.45455v20.54545v20.54545h-66.45455h-66.45455v-20.54545z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2661f7fa-aec1-4596-96f1-cc0327afc75d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://d58de5b6-7087-453b-8d34-adf7f28899d8"
+    } ]
+  } ],
+  "@id" : "https://maryoocean.github.io/gusto-test/annotations/32c2348dd84e14ec2193f288cefef281.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
