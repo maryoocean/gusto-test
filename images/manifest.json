@@ -1,0 +1,66 @@
+{
+  "id" : "https://maryoocean.github.io/gusto-test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in maryoocean/gusto-test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 973,
+    "id" : "https://maryoocean.github.io/gusto-test/images/page454/canvas/",
+    "label" : {
+      "none" : [ "page454" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://maryoocean.github.io/gusto-test/images/page454/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://maryoocean.github.io/gusto-test/images/page454/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 31,
+              "height" : 54
+            }, {
+              "width" : 61,
+              "height" : 108
+            }, {
+              "width" : 122,
+              "height" : 216
+            }, {
+              "width" : 244,
+              "height" : 432
+            }, {
+              "width" : 487,
+              "height" : 864
+            }, {
+              "width" : 973,
+              "height" : 1727
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 973,
+            "@id" : "https://maryoocean.github.io/gusto-test/images/page454",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1727
+          } ],
+          "format" : "image/jpeg",
+          "width" : 973,
+          "id" : "https://maryoocean.github.io/gusto-test/images/page454/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1727
+        },
+        "target" : "https://maryoocean.github.io/gusto-test/images/page454/canvas/"
+      } ]
+    } ],
+    "height" : 1727
+  } ]
+}
